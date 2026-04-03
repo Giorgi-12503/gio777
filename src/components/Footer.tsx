@@ -23,17 +23,6 @@ export default function Footer() {
             <p className="text-cream/60 max-w-sm mb-8 leading-relaxed">
               {t('footer.desc')}
             </p>
-            <div className="flex gap-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}

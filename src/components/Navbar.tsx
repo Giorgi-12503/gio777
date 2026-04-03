@@ -98,13 +98,6 @@ export default function Navbar() {
               )}
             </AnimatePresence>
           </div>
-
-          <a
-            href="#location"
-            className="px-6 py-2 bg-dark-brown text-cream rounded-full text-sm font-medium uppercase tracking-wide hover:bg-accent transition-colors"
-          >
-            {t('nav.order')}
-          </a>
         </div>
 
         {/* Mobile Menu Toggle */}

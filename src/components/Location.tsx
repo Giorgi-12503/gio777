@@ -73,15 +73,9 @@ export default function Location() {
                 href="https://maps.google.com/?q=Dona+Bakeshop+Batumi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-dark-brown text-cream rounded-xl text-sm font-bold uppercase tracking-widest hover:bg-accent transition-colors"
+                className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-dark-brown text-cream rounded-xl text-sm font-bold uppercase tracking-widest hover:bg-accent transition-colors"
               >
                 <Navigation className="w-4 h-4" /> {t('location.directions')}
-              </a>
-              <a
-                href="tel:+995555123456"
-                className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-transparent border-2 border-dark-brown text-dark-brown rounded-xl text-sm font-bold uppercase tracking-widest hover:bg-dark-brown hover:text-cream transition-colors"
-              >
-                <ShoppingBag className="w-4 h-4" /> {t('location.takeaway')}
               </a>
             </div>
           </motion.div>

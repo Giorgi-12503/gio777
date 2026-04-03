@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-cream font-sans text-dark-brown selection:bg-accent selection:text-white">
+      <div className="min-h-screen bg-cream font-sans text-dark-brown selection:bg-accent selection:text-white overflow-x-hidden">
         <Navbar />
         <main>
           <Hero />
