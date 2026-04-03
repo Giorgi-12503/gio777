@@ -7,9 +7,9 @@ const images = [
   { id: 1, src: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80", alt: "Delicious Cake" },
   { id: 2, src: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&fit=crop&w=800&q=80", alt: "Fresh Pastries" },
   { id: 3, src: "https://images.unsplash.com/photo-1514517521153-1be72277b32f?auto=format&fit=crop&w=800&q=80", alt: "Latte Art" },
-  { id: 4, src: "https://picsum.photos/seed/dessert1/800/1000", alt: "Signature Dessert" },
-  { id: 5, src: "https://picsum.photos/seed/macarons2/800/600", alt: "Macarons" },
-  { id: 6, src: "https://picsum.photos/seed/cafe3/800/900", alt: "Cafe Interior" },
+  { id: 4, src: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80", alt: "Signature Dessert" },
+  { id: 5, src: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80", alt: "Macarons" },
+  { id: 6, src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80", alt: "Cafe Interior" },
 ];
 
 export default function Gallery() {
